@@ -1,0 +1,546 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+.container{
+	width:100%;
+	height:auto;
+}
+.wrapper{
+	width:98%;
+	height:auto;
+	margin:2px auto;
+}
+.mynavbar{
+	width:99%;
+	height:70px;
+	margin:0 auto;
+	background-color: #e9e9e9;
+	border-radius:4px;
+}
+.logo{
+	margin-left:30px;
+	width:25%;
+}
+.logo a{
+	text-decoration:none;
+	color:#34a1eb;
+	float:left;
+	font-size:25px;
+}
+.logo span{
+	color:black;
+}
+#mylogo{
+	width:70%;
+}
+#mylogo a{
+	text-align:center;
+	width:100%;
+	float:left;
+	margin-left:5px;
+}
+.navcombo{
+	padding-top:25px;
+	float:right;
+	margin-left:50px;
+	width:auto;
+}
+.logoutdiv{
+	width:100px;
+	padding:10px;
+}
+#logoutbtn{
+  background-color: #34a1eb;
+  color: white;
+  padding: 14px 21px;
+  margin: 8px 1px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:20px;
+}
+#logoutbtn:hover{
+	background-color:red;
+}
+#mynavcombo{
+	padding-top:25px;
+	float:right;
+	margin-left:160px;
+	width:20%;
+}
+#mynavcombo{
+	width:8%;
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+}
+.headernav{
+	display:inline;
+	margin-left:3px;
+}
+.headernav a{
+	width:10%;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	margin-left:5px;
+}
+.headernav a:hover{
+	color:red;
+}
+.headernav input[type=submit]{
+	 width: 20%;
+  background-color: #34a1eb;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 130px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:20px;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.nav{
+	display:inline;
+	margin-right:25px;
+}
+.nav a{
+	text-decoration:none;
+	color:#C70039;
+	font-size:25px;
+}
+
+.mainimage{
+	clear:both;
+	width:90%;
+	margin-left:10px;
+	heiht:auto;
+}
+.mainimage img{
+	width:100%;
+	height:300px;
+	margin-left:30px;
+}
+.combo{
+	width:100%;
+	height:230px;
+	margin-left:50px;
+	margin-top:5px;
+	}
+.mytext{
+	width:50%;
+	float:left;
+}
+#h4para{
+	font-size:25px;
+	text-align:center;
+}
+.mytext a{
+	text-decoration:none;
+	margin-left:80px;
+	color:#34a1eb;
+}
+.propertyimagesstore{
+	width:40%;
+	float:left;
+	border-left:1px solid black;
+}
+.propertyImages{
+	width:45%;
+	float:left;
+	margin:10px 15px;
+	height:300px;
+}
+.propertyImages img{
+	width:100%;
+	float:left;
+}
+#firstpropertyImage{
+	height:auto;
+	float:left;
+	width:30%;
+}
+#secondpropertyImage{
+	height:100px;
+	float:left;
+	width:30%;
+	margin-top:50px;
+}
+.propertyImages p{
+	text-align:center;
+	font-weight:bold;
+	color:#34a1eb;
+}
+.allproperty{
+	clear:both;
+	margin-top:10px;
+	margin-left:40px;
+}
+.allproperty h2{
+	margin-left:50px;
+}
+
+.heading{
+	float:left;
+	margin-right:55px;
+}
+.heading h5{
+	float:left;
+}
+.Values{
+	float:left;
+	margin-right:55px;
+}
+.viewDetails{
+	height:20px;
+	clear:both;
+}
+.viewDetails a{
+	text-decoration:none;
+	margin-left:20%;
+	color:#34a1eb;
+}
+.footer{
+	clear:both;
+	margin-top:10px;
+	width:80%;
+	margin-left:100px;
+	border-top:1px solid black;
+}
+.footercombo{
+	width:50%;
+	margin-left:200px;
+	border-top:1px solid black;
+}
+.logoid{
+	text-align:center;
+}
+.logoid a{
+	text-decoration:none;
+	color:#34a1eb;
+	font-size:25px;
+}
+.logoid span{
+	color:black;
+}
+.twodivision{
+	width:100%;
+	float:left;
+	margin-left:160px;
+}
+.partition1{
+	width:40%;
+	float:left;
+}
+.partition2{
+	width:50%;
+	float:left;
+}
+#mynumberid{
+	color:#34a1eb;;
+}
+.comborefralls{
+	width:100%;
+}
+.refralls{
+	width:80%;
+	float:left;
+	margin-left:100px;
+	margin-bottom:15px;
+}
+.myrefralls{
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.myrefralls a{
+	clear:both;
+	text-decoration:none;
+	color:#34a1eb;;
+}
+.copyright{
+	text-align:center;
+}
+.copyright p{
+	font-size:20px;
+}
+.copyright span{
+	color:#34a1eb;;
+}
+.registrationbox{
+	width:85%;
+	height:auto;
+	margin:0 auto;
+	margin-top:3px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+.registrationbox h2{
+	text-align:center;
+}
+.registrationdivision{
+	width: 50%;
+    float: left;
+    margin-left: 30%;
+}
+#myregistrationdivision{
+	width: 100%;
+    float: left;
+	margin-left:5px;
+}
+#myregistrationdivision .mynavbar{
+	width:
+}
+.startdivision{
+	width:45%;
+	margin:10px 25px;
+	float:left;
+}
+.registrationfirstdivision{
+	margin:10px auto;
+	width:100%;
+}
+.registrationfirstdivision input[type=text],input[type=password],textarea,select{
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.myregistrationfirstdivision{
+	margin:10px auto;
+	width:100%;
+}
+.myregistrationfirstdivision input[type=text],input[type=password],textarea,select{
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin:3px;
+}
+
+input[type=submit] {
+  width: 70%;
+  background-color: #34a1eb;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 130px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:20px;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.mydivregistration{
+	float:left;
+}
+.mydivregistration p{
+	font-size:25px;
+	font-weight:bold;
+	margin:0px;
+}
+.combohousephoto{
+	width:100%;
+	height:300px;
+	margin:5px 5px;
+	background-color:white;
+}
+.housephoto{
+	width:28%;
+	height:130px;
+	background-color: #f2f2f2;
+	float:left;
+	margin:10px 10px;
+}
+.housephoto img{
+	width:80%;
+	margin:8px 15px;
+	height:70px;
+}
+.housephoto a{
+	text-decoration:none;
+	color:#34a1eb;
+	margin-left:33px;
+}
+.registrationfirstdivision a{
+	text-decoration:none;
+	color:red;
+	float:right;
+}
+.registrationfirstdivision a:hover{
+	color:#34a1eb;
+}
+#loginbutton{
+  width: 70%;
+  background-color: #34a1eb;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 80px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:20px;
+}
+#loginbutton:hover {
+  background-color: #45a049;
+}
+.adminlogin{
+	text-decoration:none;
+	color:black;
+	margin:50px 150px;
+}
+.adminlogin a{
+	text-decoration:none;
+	color:#34a1eb;
+	font-size:25px;
+}
+.adminlogin a:hover{
+	color:black;
+	cursor:pointer;
+}
+.registrationfirstdivision input[type=checkbox]{
+	width:10%;
+	float:left;
+	height:20px;
+	margin:0;
+}
+.registrationfirstdivision span{
+	color:#34a1eb;
+}
+.admindivision{
+	width:30%;
+	margin:10px 25px;
+	margin-left:400px;
+}
+.admindivision h2{
+	text-align:center;
+}
+.admindivision input[type=submit]{
+	width: 40%;
+    background-color: #34a1eb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 120px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.comboprofessionaldata{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-bottom:10px;
+}
+.professionaldata{
+	width:30%;
+	height:300px;
+	margin-left:25px;
+	margin-top:10px;
+	float:left;
+	background-color:gray;
+}
+.professionalimage{
+	width:90%;
+	height:200px;
+	margin-left:13px;
+	margin-top:13px;
+	background-color:green;
+}
+.professionalimage img{
+	width:100%;
+	margin:0;
+	height:100%;
+}
+.professionalname{
+	margin-top:5px;
+	width:100%;
+	background-color:red;
+}
+.professionalname h3{
+	text-align:center;
+	margin:3px;
+}
+.professionalbutton{
+	width:100%;
+	height:45px;
+	float:left;
+	margin:1px;	
+}
+.professionalbutton input[type="submit"]{
+	width:50%;
+	height:40px;
+	background-color: #34a1eb;
+    color: white;
+	margin-left:80px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+	float:left;
+}
+.professionalinformation{
+	width:70%;
+	height:auto;
+	float:left;
+}
+.informationheading{
+	width:40%;
+	float:left;
+	margin:10px;
+}
+.actualinformation{
+	width:40%;
+	float:left;
+	margin:10px;
+}
+.professionalpicture{
+	width:25%;
+	float:left;
+}
+.selectcategory{
+	width:90%;
+}
+.registrationfirstdivision{
+	width:50%;
+	margin:0 atuto;
+}
+.selectbutton{
+	width:20%;
+	float:left;
+}
+.bidsinformation{
+	width:100%;
+	margin:5px;
+}
+table{
+	width:90%;
+	margin-left:30px;
+	collapse:no-collapse;
+	margin:5px auto;
+}
+th{
+	background-color:#e9e9e9;
+	padding:6px;
+}
+td{
+	border: 1px solid #ddd;
+	padding:6px;
+}
+.mycomboprofessionaldata{
+	width:100%;
+	margin:0;
+	float:left;
+}
